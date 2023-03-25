@@ -46,9 +46,15 @@ const config = {
   TOKEN_EXPIRES_IN: process.env.TOKEN_EXPIRES_IN,
 };
 
+const DB_HOST = 'db'
+const DB_PASS = 'youdonthavetoknow'
+
 module.exports = {
   config: config,
-  logger: logger
+  logger: logger,
+  DB_HOST: DB_HOST,
+  DB_PASS: DB_PASS
+
 }
 
 //module.exports = config
